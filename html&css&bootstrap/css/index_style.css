@@ -1,0 +1,420 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+ 
+}
+.bg
+{
+    background-image: url(../images/cover.jpg);
+    height: 630px;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-color
+{
+    background-color: rgba(236, 51, 55, 0.7);
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar
+{
+    background-color: black !important;
+    height: 70px;
+    padding: 0 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+.brand-logo
+{
+    height: 70px;
+}
+
+.brand-title
+{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.Home
+{
+    border-bottom: 2px solid #ec3237;
+}
+header .nav-link
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin:15px;
+    font-size: 14px;
+    color: white !important;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled)
+{
+    border: 2px solid;
+}
+ 
+.caption
+{
+    position: absolute;
+    top: 27%;
+    left: 74px;
+}
+
+.caption h1
+{
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: 0px 5px 10px #af2424;
+}
+.cover_cta {
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1em;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.cover_cta:hover
+{
+    background: white;
+    color: #ec3237;
+}
+
+
+.section_scroll{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    animation-name: down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes down{
+    from {bottom: 80px;}
+    to {bottom: 100px; }    
+}
+
+.title
+{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight:900;
+    font-family: 'Francois One', sans-serif;
+}
+   
+.about h5
+{
+ color:#1d1c1cc7;
+}
+    
+.about p
+{
+    padding-top:7px;
+    color: gray;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.social-media i
+{
+   border:1px solid gray;
+   padding: 13px; 
+   font-size: 15px;
+   margin-left: 10px;
+   color: gray;
+}
+
+.social-media i:hover
+{
+    background: #ec3237;
+    color: white;
+}
+
+.progress_wrap 
+{
+    margin-top: 15px;
+    color: gray;
+    font-family: 'Lobster Two', cursive;
+}
+
+.progress-bar
+ {
+    background-color: #ec3237;
+}
+
+.about button
+{
+    padding: 10px 15px;
+    border: none;
+    background: #ec3237;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+.bg-gray
+{
+    background-color: #F5F5F5;
+    margin-bottom: 0;
+    height: auto;
+}
+.bg-gray p
+{
+    color: gray;
+}
+
+.service
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 3px;
+    border:1px solid #eeeeee;
+    box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+}
+
+.service i
+{
+    border:1px solid #eeeeee;
+    padding: 10px;
+    background:#ded9d9;
+    font-size: 22px;
+}
+.service h4
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service p 
+{
+    color: grey;
+    font-size: 18px;
+}
+
+.service:hover i
+{
+    background:#ec3237;
+    color: white;
+}
+
+.service:hover h4
+{
+    color: #ec3237;
+}
+
+.bg-gray button
+{
+    padding: 10px 15px;
+    border: none;
+    background: #ec3237;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+ 
+.projects
+{
+    width: 100%;
+    padding: 150px 0;
+    background-image: url(../images/project-counter.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;  
+}
+
+.project
+{
+    border: 1px solid gray;
+    padding: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.project i , h5
+{
+    color: #ec3237;
+    text-transform: uppercase;
+}
+
+
+.project span
+{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top:20px;
+}
+
+.portofilo p
+{
+    color:gray;
+}
+
+ul#pills-tab
+ {
+    width: 50%;
+    margin: auto;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link 
+{
+    background-color: #ec3237;
+    color: white !important;
+    width: 125px;
+}
+
+.nav-pills .nav-link
+{
+    border: 1px solid rgb(185, 184, 184);
+    box-sizing: border-box;
+    font-size: 18px;
+    color: rgb(77, 75, 75) !important;
+    border-radius: 0 !important;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link:hover
+{
+border:1px solid #ec3237;
+color: black !important;
+}
+.tabs .nav-link
+{
+   margin: 5px; 
+   width: 125px;
+   text-align: center;
+}
+
+.all img
+{
+    border-radius: 3px;
+}
+
+.section .contant
+{
+    padding: 0px 15px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    position: relative;
+    width: 100%;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 16px 0px 22px 12px rgba(26, 25, 25, 0.05);
+}
+.section img
+{
+    width: 100%;
+}
+
+.section i
+{
+    position: absolute;
+    top:-23px;
+    right: 45%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+}
+
+.section:hover i
+{
+    background-color:#ec3237;
+}
+
+.section h5
+{
+    padding-top: 25px;
+    text-transform: uppercase;
+    color:rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+#carouselExampleControls
+{
+    padding: 100px 0 ;
+    width: 100%;
+    background-image: url(../images/client-testimonial.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;  
+}
+.carousel-item img
+{
+    border:6px solid #ec3237;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 20%;
+    margin: auto;
+}
+
+.carousel-item p, h6
+{
+    color:white;
+    padding-top: 12px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+    margin-top: 85px;
+}
+
+.carousel-item h3
+{
+  color: #ec3237;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.form-control {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border: 2px solid #cccccc;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bg-gray a 
+{
+    color:#ec3237;
+}
